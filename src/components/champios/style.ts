@@ -35,6 +35,11 @@ const Right = styled.div`
         left: 5em;
         top: 0.5em;
         font-size: 24px;
+
+        &.small {
+          font-size: 22px;
+          left: 6em;
+        }
       }
     }
 
