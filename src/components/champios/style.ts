@@ -83,9 +83,10 @@ const Left = styled.div`
 
 const Description = styled.div`
   @media screen and (min-width: 390px) {
-    min-width: 90%;
+    width: 90%;
     font-size: 14px;
     margin: 1em 0em;
+    text-align: justify;
   }
 `;
 
