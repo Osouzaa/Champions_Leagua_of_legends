@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     width: 100%;
     height: 100%;
     display: block;
@@ -9,14 +9,14 @@ const Container = styled.div`
 `;
 
 const ContentView = styled.div`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     display: flex;
     flex-direction: column;
   }
 `;
 
 const Right = styled.div`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +65,7 @@ const Right = styled.div`
 `;
 
 const Left = styled.div`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,15 +82,15 @@ const Left = styled.div`
 `;
 
 const Description = styled.div`
-  @media screen and (max-width: 390px) {
-    max-width: 90%;
+  @media screen and (min-width: 390px) {
+    min-width: 90%;
     font-size: 14px;
     margin: 1em 0em;
   }
 `;
 
 const List = styled.ul`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     margin-top: 1em;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ const List = styled.ul`
 `;
 
 const ContentHabilidaddes = styled.div`
-  @media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
     margin-top: 2em;
     display: flex;
     gap: 3em;
